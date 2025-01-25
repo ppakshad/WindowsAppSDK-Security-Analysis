@@ -52,8 +52,8 @@ To replicate the security analysis, follow these steps:
 
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/ppakshad/WindowsAppSDK-Security-Analysis.git
+cd WindowsAppSDK-Security-Analysis
 
 # Run Cppcheck for static analysis
 cppcheck --enable=all --inconclusive --quiet ./src
