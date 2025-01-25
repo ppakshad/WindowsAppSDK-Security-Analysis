@@ -1,0 +1,11 @@
+API: WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_B-10_A0.cpp:59
+Date created: November 15, 2024 1:01 AM
+Discovery method: SAST
+ID: 0b17c868-1fa3-ef11-88cf-0022484ff85a
+Issue type: PrivilegeEscalation
+Last found: November 15, 2024 1:01 AM
+Last updated: November 15, 2024 1:01 AM
+Location: WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_B-10_A0.cpp:59
+Scanner: AppScan Static Analyzer
+Severity: High
+Status: Open

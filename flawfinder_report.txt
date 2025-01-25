@@ -1,0 +1,2045 @@
+Flawfinder version 2.0.19, (C) 2001-2019 David A. Wheeler.
+Number of rules (primarily dangerous function names) in C/C++ ruleset: 222
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/test/InstallerFunctionalTests/helpers.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/test/InstallerFunctionalTests/FunctionalTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/test/InstallerFunctionalTests/constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/test/InstallerFunctionalTests/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/test/InstallerFunctionalTests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/test/InstallerFunctionalTests/helpers.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/tracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/install.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/resource.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/WindowsAppRuntime-License.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/console.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/packages.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/InstallActivityContext.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/windowsappruntime_definitions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/tracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/MachineTypeAttributes.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/install.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/console.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/InstallActivityContext.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/WindowsAppSDK-VersionInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/PackagedTests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/resource.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/PackagedTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/BaseTestSuite.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/BaseTestSuite.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/UnpackagedTests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/AppNotification-Test-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/UnpackagedTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationTests/AppNotifications.Test.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/CameraCaptureUITests/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/CameraCaptureUITests/APITests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/CameraCaptureUITests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/VersionInfo/VersionInfoTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/VersionInfo/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/VersionInfo/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PowerNotifications/FunctionalTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PowerNotifications/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PowerNotifications/APITests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PowerNotifications/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/LRPTests/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/LRPTests/APITests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/LRPTests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppLifecycle/FunctionalTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppLifecycle/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppLifecycle/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppLifecycle/Shared.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppLifecycle/Shared.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/PushNotificationsDemoApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/PushNotificationsDemoApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/PushNotificationsDemoApp/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsDemoApp/resource.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsDemoApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsDemoApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsDemoApp/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AccessControlTestApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AccessControlTestApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AccessControlTestApp/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/PushNotificationsTestApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/PushNotificationsTestApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/PushNotificationsTestApp/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ManualTestApp/resource.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ManualTestApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ManualTestApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ManualTestApp/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/Helpers.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/SingleInstanceTest.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/SingleInstanceTest.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/RequestRestartTest.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/Helpers.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/RequestRestartTest.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsTestApp/resource.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsTestApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsTestApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/ToastNotificationsTestApp/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Create_DoNotVerifyDependencyResolution.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestPackages.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Add_Rank_A0_B10.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_GetCurrentPackageInfo.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Add_Rank_B-10_A0.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_FullLifecycle_FilePathLifetime_Frameworks_2.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_FullLifecycle_ProcessLifetime_Frameworks_2.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestPackages.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Add_Rank_B0prepend_A0.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Create_Add_Architectures_Current.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_FullLifecycle_RegistryLifetime_Frameworks_2.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestMddBootstrapCppInitialize.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Create_RegistryLifetime_NoExist.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestFilesystem.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_LifetimeManagement.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestFilesystem.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestMddBootstrap.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Create_Add_Architectures_Explicit.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_WinRTReentrancy.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Create_FilePathLifetime_NoExist.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Add/Math.Add.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Add/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Add/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Add/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Add/targetver.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Add/Math.Add.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/Microsoft.Test.DynamicDependency.Widgets.Widget1.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/Microsoft.Test.DynamicDependency.Widgets.Widget2.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/Microsoft.Test.DynamicDependency.Widgets.Widget2.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/Microsoft.Test.DynamicDependency.Widgets.Widget1.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Widgets/targetver.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Multiply/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Multiply/Math.Multiply.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Multiply/Math.Multiply.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Multiply/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Multiply/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/data/Framework.Math.Multiply/targetver.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_B-10_A0.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/TestPackages.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Create_Add_Architectures_Explicit.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Create_Add_Architectures_Current.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Create_DoNotVerifyDependencyResolution.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/TestPackages.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_FullLifecycle_RegistryLifetime_Frameworks_2.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_A0_B10.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_FullLifecycle_ProcessLifetime_Frameworks_2.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Create_RegistryLifetime_NoExist.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/TestFilesystem.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_FullLifecycle_FilePathLifetime_Frameworks_2.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/TestFilesystem.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_B0prepend_A0.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Create_FilePathLifetime_NoExist.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_BootstrapAutoInitialize/CPP/WindowsAppSDK-VersionInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/ApplicationData/ApplicationDataTests_Module.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/ApplicationData/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/ApplicationData/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/ApplicationData/ApplicationDataTests_Elevated.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/ApplicationData/ApplicationDataTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AccessControlTests/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AccessControlTests/APITests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AccessControlTests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.FileSystem.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.Diagnostics.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.TAEF.cppwinrt.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.TAEF.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/TestDef.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.Metadata.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.Bootstrap.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.Package.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.AppModel.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Register.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_EnsureReady_RegisterNewerIfAvailable.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_IsReadyOrNewerAvailable.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Remove.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Provision.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_IsReady.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Repair.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Add.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_EnsureReady.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Reset.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageManagerTests_Module.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_IsPackageRegistrationPending.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageManagerTests.Packages.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Module.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Deprovision_Main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Deprovision_Framework.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageRuntimeManagerTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/API/PackageDeploymentManagerTests_Stage.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Whiter.msix/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Whiter.msix/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Whiter.msix/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.F.Red.msix/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.F.Red.msix/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.F.Red.msix/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Blacker.msix/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Blacker.msix/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Blacker.msix/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.White.msix/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.White.msix/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.White.msix/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Black.msix/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Black.msix/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PackageManager/data/PackageManager.Test.M.Black.msix/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/ChangeTrackerHelper.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/EnvironmentManagerCentennialTests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/EnvironmentVariableHelper.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestCommon.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestSetupAndTeardownHelper.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/EnvironmentManagerWin32Tests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/EnvironmentManagerCentennialTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/EnvironmentManagerWin32Tests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationBuilderTests/AppNotificationBuilderTests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationBuilderTests/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationBuilderTests/APITests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationBuilderTests/AppNotificationBuilderTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/AppNotificationBuilderTests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/ToastNotificationTests/AppNotification-Test-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Common/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Common/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Common/Test_Security_User.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Common/Test_SelfContained.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Common/Test_Utf8.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/PackagedTests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/MockRawNotification.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/PackagedTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/BaseTestSuite.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/PushNotification-Test-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/BaseTestSuite.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/UnpackagedTests.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/MockBackgroundTaskInstance.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/MockRawNotification.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/MockBackgroundTaskInstance.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/UnpackagedTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/PushNotificationTests/LRPTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Deployment/API/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Deployment/API/APITests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/test/Deployment/API/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/detours.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/detver.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disolx86.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disolarm.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disasm.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/creatwth.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disolx64.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disolarm64.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/modules.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disolia64.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/uimports.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/detours.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/LongRunningProcessSourcedRawNotification.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/NotificationPlatformActivation.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/NotificationListenerManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/ToastRegistrationManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/PushNotificationLongRunningTaskTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/platformfactory.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/platformfactory.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/ForegroundSinkManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/NotificationListenerManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/PlatformLifetimeManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/ToastRegistrationManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/PlatformLifetimeManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/NotificationListener.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/ForegroundSinkManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/NotificationListener.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/platform.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask/platform.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/LongRunningProcessSourcedTaskInstance.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationChannel.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationReceivedEventArgs.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationReceivedEventArgs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask.ProxyStub/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask.ProxyStub/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask.ProxyStub/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/externs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotifications-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationCreateChannelResult.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationUtility.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask.StartupTask/PushNotificationsLongRunningPlatform-Startup.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask.StartupTask/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask.StartupTask/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationsLongRunningTask.StartupTask/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationCreateChannelResult.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationDummyDeferral.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationChannel.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DeploymentAgent/tracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DeploymentAgent/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DeploymentAgent/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DeploymentAgent/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyDataStore/DynamicDependency.DataStore.ProxyStub/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyDataStore/DynamicDependency.DataStore.ProxyStub/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyDataStore/DynamicDependency.DataStore.ProxyStub/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyDataStore/DynamicDependency.DataStore/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyDataStore/DynamicDependency.DataStore/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyDataStore/DynamicDependency.DataStore/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyDataStore/DynamicDependencyDataStore-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VersionInfo/VersionInfo.RuntimeInfo.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VersionInfo/VersionInfo.ReleaseInfo.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VersionInfo/VersionInfo.ReleaseInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VersionInfo/VersionInfo.RuntimeInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_Insights/WindowsAppRuntimeInsights.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_UniversalBGTaskDLL/Task.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_UniversalBGTaskDLL/Task.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_UniversalBGTaskDLL/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_UniversalBGTaskDLL/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PowerNotifications/PowerNotifications.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PowerNotifications/PowerNotifications.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyLifetimeManager/DynamicDependencyLifetimeManager/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyLifetimeManager/DynamicDependencyLifetimeManager/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyLifetimeManager/DynamicDependencyLifetimeManager/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyLifetimeManager/DynamicDependencyLifetimeManager.ProxyStub/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyLifetimeManager/DynamicDependencyLifetimeManager.ProxyStub/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyLifetimeManager/DynamicDependencyLifetimeManager.ProxyStub/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependencyLifetimeManager/DynamicDependencyLifetimeManager-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/RedirectionRequest.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/ActivationRegistrationManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/ExecuteCommandBase.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/AppInstance.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/ActivationRegistrationManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/AppInstance.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/Association.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/FileActivatedEventArgs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/RedirectionRequest.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/AppActivationArguments.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/LaunchActivatedEventArgs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/EncodedLaunchExecuteCommand.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/RedirectionRequestQueue.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/Association.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/ExtensionContract.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/AppLifecycleTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/SharedMemory.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/SharedProcessList.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/ValueMarshaling.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/StartupActivatedEventArgs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/ProtocolActivatedEventArgs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/EncodedLaunchExecuteCommand.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/ActivatedEventArgsBase.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/RestartAgent/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/RestartAgent/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/RestartAgent/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Licensing/MsixLicensing.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Licensing/WindowsAppRuntime-License.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Licensing/MsixLicensing.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/SingleProjectPackagedApp/App.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/SingleProjectPackagedApp/App.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/SingleProjectPackagedApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/SingleProjectPackagedApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/SingleProjectPackagedApp/MainWindow.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/SingleProjectPackagedApp/MainWindow.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/UnitTestApp/App.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/UnitTestApp/App.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/UnitTestApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/UnitTestApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/UnitTestApp/MainWindow.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/UnitTestApp/UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/UnitTestApp/MainWindow.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/PackagedApp/BlankApp/App.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/PackagedApp/BlankApp/App.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/PackagedApp/BlankApp/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/PackagedApp/BlankApp/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/PackagedApp/BlankApp/MainWindow.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Desktop/CppWinRT/PackagedApp/BlankApp/MainWindow.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Neutral/CppWinRT/RuntimeComponent/Class.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Neutral/CppWinRT/RuntimeComponent/Class.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Neutral/CppWinRT/RuntimeComponent/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ProjectTemplates/Neutral/CppWinRT/RuntimeComponent/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Desktop/CppWinRT/BlankWindow/BlankWindow.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Desktop/CppWinRT/BlankWindow/BlankWindow.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Neutral/CppWinRT/UserControl/UserControl.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Neutral/CppWinRT/UserControl/UserControl.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Neutral/CppWinRT/BlankPage/BlankPage.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Neutral/CppWinRT/BlankPage/BlankPage.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Neutral/CppWinRT/TemplatedControl/TemplatedControl.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/VSIX/ItemTemplates/Neutral/CppWinRT/TemplatedControl/TemplatedControl.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.PackageDependencyRank.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.CreatePackageDependencyOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.AddPackageDependencyOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.PackageDependency.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.PackageDependencyContext.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/DataStore.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.PackageDependency.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddDetourPackageGraph.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraph.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/WinRTPackage.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/wil_msixdynamicdependency.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/appmodel_packageinfo.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageDependencyManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddWin11.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MsixDynamicDependency.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/WinRTInprocModule.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageId.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/WinRTPackage.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddDetourPackageGraph.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddWinRT.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddLifetimeManagement.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/DataStore.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraphManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MsixDynamicDependency.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddLifetimeManagement.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraphNode.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/appmodel_packageinfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.AddPackageDependencyOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.CreatePackageDependencyOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageDependencyManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageDependency.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraphNode.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.PackageDependencyContext.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddWinRT.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddCore.Architecture.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/WinRTModuleManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraph.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/winrt_namespaces.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.DD.PackageDependencyRank.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageDependency.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/WinRTModuleManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraphManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/appmodel_msixdynamicdependency.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/M.AM.Converters.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/MddLifetimeManagementTest.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/DynamicDependencyLifetimeManagerShadow/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/DynamicDependencyLifetimeManagerShadow/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/DynamicDependencyLifetimeManagerShadow/winmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/ApplicationData/ApplicationDataTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/ApplicationData/M.W.S.ApplicationData.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/ApplicationData/M.W.S.ApplicationDataContainer.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/ApplicationData/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/ApplicationData/M.W.S.ApplicationData.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/ApplicationData/M.W.S.ApplicationDataContainer.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AccessControl/Microsoft.Windows.Security.AccessControl.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AccessControl/GetSecurityDescriptorForAppContainerNames.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AccessControl/Microsoft.Windows.Security.AccessControl.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AccessControl/Security.AccessControl.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AccessControl/SecurityDescriptorHelpers.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_DLL/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_DLL/COMExports.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_DLL/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_DLL/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_DLL/WindowsAppRuntime_EnsureIsLoaded.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/API/Microsoft.Windows.System.EnvironmentManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/API/Microsoft.Windows.System.EnvironmentManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/API/Microsoft.Windows.System.EnvironmentManager.Insights.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/PathChangeTracker.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/EnvironmentVariableChangeTracker.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/EnvironmentVariableChangeTracker.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/IChangeTracker.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/EnvironmentVariableChangeTrackerHelper.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/PathExtChangeTracker.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/PathExtChangeTracker.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/ChangeTracker/PathChangeTracker.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrapActivity.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrapTest.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrapTracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/wil_msixdynamicdependency.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrapTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/WindowsAppRuntime-Licensing.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrapActivity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/WindowsAppRuntime-Licensing.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrapAutoInitializer.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationProperties.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotification.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationActivatedEventArgs.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationTransientProperties.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationProgressData.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationComboBox.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationTextProperties.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationProgressBar.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationComboBox.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationProgressBar.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationBuilderTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationTextProperties.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationButton.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationBuilder.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationBuilderUtility.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationButton.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationBuilder/AppNotificationBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationProgressData.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotification.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationUtility.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/ShellLocalization.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationProgressData.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationProperties.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationTransientProperties.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationActivatedEventArgs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/ShellLocalization.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationUtility.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationProgressData.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/catalog.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/urfw.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/catalog.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/UndockedRegFreeWinRT-AutoInitializer.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/urfw.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceLoader.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/KnownResourceQualifierName.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ApplicationLanguages.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceMap.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/Helper.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/Helper.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceContext.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceContext.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceMap.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceCandidate.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceNotFoundEventArgs.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceLoader.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceCandidate.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ResourceNotFoundEventArgs.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/ApplicationLanguages.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Microsoft.Windows.ApplicationModel.Resources/src/KnownResourceQualifierName.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/src/MRM.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/src/MRM.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/unittests/MrmTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/MrmQualifiers.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/BaseFile.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/SectionParser.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/References.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/Atoms.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/HNames.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/MrmReaders.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/RemapInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/FileLists.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/MrmManagers.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/SectionReaders.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/WriteableStringPool.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/FileBuilder.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/ResourcePackMerge.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/FileListBuilder.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/Atoms.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/SectionCopiers.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/AIDict.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/SectionBuilders.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/HNamesBuilder.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/MrmBuilders.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/Base.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/DefList.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/Atoms.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/Platform.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/file/MrmFiles.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/file/FileListBase.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/file/HNamesSection.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/file/FileAtomPool.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/file/FileBase.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/file/FileBaseSections.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/MrmProfileData.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/PlatformWin32.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/BaseInternal.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/PlatformRtl.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/Base.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/MrmTraceLogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/Collections.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/BaseInternal.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/DefObject.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/platform/base.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/platform/WindowsCore.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/platform/MrmConstants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/platform/CoreQualifierTypes.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/Results.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/MrmEnvironment.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/Checksums.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/LoggingTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/DefChecksum.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Helpers.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testReverseMap.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testQualifier.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/ResourcePackMerge.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testHSchema.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testPri.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriFileManager.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/TestReverseMap.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/DecisionInfo.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/TestSections.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/ResourceReference.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/DataItemsSection.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Environment.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testPri.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testEnvironment.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/TestFileUtils.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testQualifier.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/UnifiedView.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/TestLinks.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testMap.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/HNames.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testHSchema.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testMap.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/ResourceLink.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/AtomPool.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testEnvironment.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testUtils.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Helpers.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/ReverseFileMap.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/RemapInfo.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/TestFileUtils.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/TestSections.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/HSchema.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testLinks.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/testUtils.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/BlobResult.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/BlobResult_C.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/ResourceMap.UnitTests.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/MapBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/AIDict.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/LinkBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/SectionCopier.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/ReverseMapBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileAtomPoolBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/InstanceReferences.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/PriSectionBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/PriMerge.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HSchemaBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/StdAfx.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/SectionCopiers.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/StdAfx.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/EnvironmentEx.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/References.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/ResourcePackMerge.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileListBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/DataItemOrchestrator.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/DataSectionBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/SectionCopierFactory.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/EnvironmentMappingBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/ReverseMap.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/CoreEnvironment.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfoBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/FileAtomPool.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseProviders.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfo.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/SchemaCollection.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Environment.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Resolvers.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DefObject.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/UnifiedView.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/ResourceMap.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/RemapInfo.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/HSchema.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/AtomGroup.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Managers.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/ResourceLink.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Platform.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/RtlProfile.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BlobResultImpl.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/ManagedFiles.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/FileFileList.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/StringResult.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Checksums.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/StdAfx.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/MrmFile.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/FileDataSection.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Atom.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseFile.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/StringResult.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/MrmTraceLogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/StringResultImpl.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/PriFileManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BlobResult.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/HNames.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BlobResult.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/PriFile.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/CoreProfile.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/StaticAtomPool.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/CoreQualifierTypes.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/ExecuteRequestByUri.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/PackageDeploymentResolver.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/MsixPackageManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageDeploymentResult.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.RemovePackageOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageDeploymentResult.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.StagePackageOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageVolume.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSet.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.ProvisionPackageOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.RegisterPackageOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.StagePackageOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSetItem.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/PackageDeploymentResolver.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSetRuntimeDisposition.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.EnsureReadyOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageVolume.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.AddPackageOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSet.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSetItemRuntimeDisposition.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageDeploymentManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSetRuntimeDisposition.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSetItemRuntimeDisposition.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/PackageManagerTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/ExecuteRequestByUri.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.ProvisionPackageOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageSetItem.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageDeploymentManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageRuntimeManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageRuntimeManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.EnsureReadyOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.RemovePackageOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.AddPackageOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.RegisterPackageOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Security.User.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-VersionInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-DynamicDependency.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Security.IntegrityLevel.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/WindowsAppRuntime.VersionInfo.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/winrt_WindowsAppRuntime.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Microsoft.Utf8.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/AppModel.Identity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Microsoft.TraceLogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-OAuth.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/NotificationTelemetryHelper.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Microsoft.Foundation.String.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Microsoft.RoApi.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-DeploymentAPI.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/WindowsAppRuntime.SelfContained.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-AppNotifications.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/WindowsAppRuntime.SelfContained.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-PackageManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/AppModel.PackageGraph.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TelemetryHelper.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-ApplicationData.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/AppModel.Package.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/ExportLoader.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-PushNotifications.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TerminalVelocityFeatures-EnvironmentManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/WindowsAppRuntime.VersionInfo.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/IsWindowsVersion.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Microsoft.Configuration.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/BackgroundTask/BackgroundTaskBuilder/BackgroundTaskBuilder.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/BackgroundTask/BackgroundTaskBuilder/BackgroundTaskBuilder.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentManagerAutoInitializer.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/PackageDefinitions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentInitializeOptions.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentTraceLogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentActivityContext.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentResult.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentInitializeOptions.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentActivityContext.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Deployment/DeploymentResult.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Interop/CameraCaptureUI/CameraCaptureUI/CameraCaptureUIPhotoCaptureSettings.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Interop/CameraCaptureUI/CameraCaptureUI/CameraCaptureUI.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Interop/CameraCaptureUI/CameraCaptureUI/CameraCaptureUIVideoCaptureSettings.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Interop/CameraCaptureUI/CameraCaptureUI/CameraCaptureUIVideoCaptureSettings.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Interop/CameraCaptureUI/CameraCaptureUI/CameraCaptureUIPhotoCaptureSettings.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Interop/CameraCaptureUI/CameraCaptureUI/CameraCaptureUI.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Interop/CameraCaptureUI/CameraCaptureUI/CameraCaptureUITelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthResponse.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthResponse.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenRequestParams.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthRequestAsyncOperation.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthRequestParams.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/OAuth2Manager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthRequestResult.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/OAuth2Manager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/ClientAuthentication.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/OAuth2ManagerTelemetry.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenResponse.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthRequestParams.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/Crypto.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthRequestAsyncOperation.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenRequestResult.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenFailure.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/ClientAuthentication.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthRequestResult.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/common.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenRequestResult.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenRequestParams.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/LockableMap.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenResponse.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthFailure.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/TokenFailure.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/dev/OAuth/AuthFailure.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-proxystub/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-proxystub/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-proxystub/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/PurojekutoTenpuret-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/PurojekutoTenpuretTracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/PurojekutoTenpuretActivity.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/PurojekutoTenpuretTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/PurojekutoTenpuretActivity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.com-oopserver-main/PurojekutoTenpuret-Override.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.msixpackage/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.msixpackage/JustDoIt.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.msixpackage/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.msixpackage/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.msixpackage/targetver.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.msixpackage/JustDoIt.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/PurojekutoTenpuretTracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/PurojekutoTenpuret.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/PurojekutoTenpuretActivity.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/PurojekutoTenpuret.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/PurojekutoTenpuretTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/PurojekutoTenpuretActivity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.console-winrt-client/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/PurojekutoTenpuretTracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/PurojekutoTenpuret.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/PurojekutoTenpuretActivity.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/PurojekutoTenpuret.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/PurojekutoTenpuretTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/PurojekutoTenpuretActivity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe.winmain-winrt-client/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/PurojekutoTenpuret-Constants.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/PurojekutoTenpuretTracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/PurojekutoTenpuretActivity.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/PurojekutoTenpuretTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/PurojekutoTenpuretActivity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/main.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuret/PurojekutoTenpuret-Override.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuretProxyStub/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuretProxyStub/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.exe+dll.com-oopserver/PurojekutoTenpuretProxyStub/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/M.TokuchoAbbreviation.PurojekutoTenpuretNoFeaturePrefixAbbreviation.PurojekutoTenpuretNoFeaturePrefixManager.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/PurojekutoTenpuretTracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/PurojekutoTenpuret.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/PurojekutoTenpuretActivity.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/PurojekutoTenpuret.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/PurojekutoTenpuretTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/PurojekutoTenpuretActivity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/M.TokuchoAbbreviation.PurojekutoTenpuretNoFeaturePrefixAbbreviation.PurojekutoTenpuretNoFeaturePrefixManager.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client-server/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.taef/PurojekutoTenpuret.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.taef/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/test.cpp.dll.taef/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/dllmain.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/PurojekutoTenpuretTracelogging.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/PurojekutoTenpuret.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/PurojekutoTenpuretActivity.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/PurojekutoTenpuret.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/PurojekutoTenpuretTracelogging.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/pch.cpp
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/PurojekutoTenpuretActivity.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/pch.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/ProjectTemplates/dev.cpp.dll.winrt-client/framework.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-NoNamespace-WindowsInbox.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-Preview.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-WindowsInbox.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-NoNamespace-Preview.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-Experimental.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-Stable.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-NoNamespace-Experimental.h
+Examining /home/puya/Desktop/WindowsAppSDK-1.6.2/tools/TerminalVelocity/test/TerminalVelocityFeatures-Test-NoNamespace-Stable.h
+
+FINAL RESULTS:
+
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/detours.h:913:25:  [4] (format) printf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+#define DETOUR_TRACE(x) printf x
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/common/PlatformRtl.h:56:9:  [4] (format) wprintf:
+  If format strings can be influenced by an attacker, they can be exploited
+  (CWE-134). Use a constant for the format specification.
+#define wprintf
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.h:87:13:  [3] (misc) InitializeCriticalSection:
+  Exceptions can be thrown in low-memory situations. Use
+  InitializeCriticalSectionAndSpinCount instead.
+            InitializeCriticalSection(&_csCacheLock);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.cpp:420:50:  [3] (misc) LoadLibraryEx:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use a flag like LOAD_LIBRARY_SEARCH_SYSTEM32
+  or LOAD_LIBRARY_SEARCH_APPLICATION_DIR to search only desired folders.
+        wil::unique_hmodule windowsAppRuntimeDll(LoadLibraryEx(windowsAppRuntimeDllFilename.c_str(), nullptr, LOAD_WITH_ALTERED_SEARCH_PATH));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/install.cpp:325:34:  [3] (tmpfile) GetTempFileName:
+  Temporary file race condition in certain cases (e.g., if run as SYSTEM in
+  many versions of Windows) (CWE-377).
+        THROW_LAST_ERROR_IF(0 == GetTempFileName(std::filesystem::temp_directory_path().c_str(), c_windowsAppRuntimeTempDirectoryPrefix, 0u, packageFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestFilesystem.cpp:26:33:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+        wil::unique_hmodule dll(LoadLibrary(L"DynamicDependency_Test_Win32.dll"));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/TestMddBootstrap.cpp:80:43:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+        wil::unique_hmodule bootstrapDll{ LoadLibrary(bootstrapDllAbsoluteFilename.c_str()) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_GetCurrentPackageInfo.cpp:42:37:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+            wil::unique_hmodule dll(LoadLibrary(dllAbsoluteFilename.c_str()));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_LifetimeManagement.cpp:33:46:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+            wil::unique_hmodule bootstrapDll(LoadLibrary(bootstrapDllAbsoluteFilename.c_str()));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32.cpp:44:38:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule bootstrapDll(LoadLibrary(bootstrapDllAbsoluteFilename.c_str()));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32.cpp:161:46:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule windowsAppRuntimeDll(LoadLibrary(windowsAppRuntimeDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Add_Rank_A0_B10.cpp:57:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Add_Rank_B-10_A0.cpp:57:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Add_Rank_B0prepend_A0.cpp:57:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Create_Add_Architectures_Current.cpp:60:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Create_Add_Architectures_Explicit.cpp:66:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_Create_DoNotVerifyDependencyResolution.cpp:63:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_FullLifecycle_FilePathLifetime_Frameworks_2.cpp:83:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_FullLifecycle_ProcessLifetime_Frameworks_2.cpp:56:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32_FullLifecycle_RegistryLifetime_Frameworks_2.cpp:81:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/TestFilesystem.cpp:23:33:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+        wil::unique_hmodule dll(LoadLibrary(L"DynamicDependency_Test_WinRT.dll"));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT.cpp:44:38:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule bootstrapDll(LoadLibrary(bootstrapDllAbsoluteFilename.c_str()));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT.cpp:174:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_A0_B10.cpp:59:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_B-10_A0.cpp:59:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Add_Rank_B0prepend_A0.cpp:59:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Create_Add_Architectures_Current.cpp:61:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Create_Add_Architectures_Explicit.cpp:67:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_Create_DoNotVerifyDependencyResolution.cpp:65:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_FullLifecycle_FilePathLifetime_Frameworks_2.cpp:88:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_FullLifecycle_ProcessLifetime_Frameworks_2.cpp:57:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT_FullLifecycle_RegistryLifetime_Frameworks_2.cpp:84:36:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+    wil::unique_hmodule mathAddDll(LoadLibrary(mathAddDllFilename));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/Helpers.cpp:34:38:  [3] (misc) LoadLibraryEx:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use a flag like LOAD_LIBRARY_SEARCH_SYSTEM32
+  or LOAD_LIBRARY_SEARCH_APPLICATION_DIR to search only desired folders.
+    wil::unique_hmodule bootStrapDll(LoadLibraryEx(g_bootStrapDllName, NULL, 0));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/TestApps/AppLifecycleTestApp/Helpers.cpp:64:38:  [3] (misc) LoadLibraryEx:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use a flag like LOAD_LIBRARY_SEARCH_SYSTEM32
+  or LOAD_LIBRARY_SEARCH_APPLICATION_DIR to search only desired folders.
+    wil::unique_hmodule bootStrapDll(LoadLibraryEx(g_bootStrapDllName, NULL, 0));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.Bootstrap.h:117:42:  [3] (misc) LoadLibrary:
+  Ensure that the full path to the library is specified, or current directory
+  may be used (CWE-829, CWE-20). Use LoadLibraryEx with one of the search
+  flags, or call SetSearchPathMode to use a safe search path, or pass a full
+  path to the library.
+        wil::unique_hmodule bootstrapDll(LoadLibrary(bootstrapDllAbsoluteFilename.c_str()));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppLifecycle/Association.cpp:39:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t hashString[17]{}; // 16 + 1 characters for 64bit value represented as a string with a null terminator.
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationUtility.cpp:102:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t appUserModelId[APPLICATION_USER_MODEL_ID_MAX_LENGTH] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationUtility.cpp:332:15:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+    int size{ MultiByteToWideChar(
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationUtility.cpp:343:12:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+    size = MultiByteToWideChar(
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationProperties.cpp:34:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(m_payload.data(), payloadAsSimpleString.c_str(), payloadAsSimpleString.size());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/NotificationProperties.cpp:67:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(tempPayload.data(), m_payload.get(), tempPayloadSize);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Microsoft.Utf8.h:20:49:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+    const auto lengthIncludingNullTerminator{ ::MultiByteToWideChar(CP_UTF8, 0, utf8, -1, nullptr, 0) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/Microsoft.Utf8.h:25:33:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+    THROW_IF_WIN32_BOOL_FALSE(::MultiByteToWideChar(CP_UTF8, 0, utf8, -1, s.get(), lengthIncludingNullTerminator));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/NotificationTelemetryHelper.h:31:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t appUserModelId[APPLICATION_USER_MODEL_ID_MAX_LENGTH]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/TelemetryHelper.h:29:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t appUserModelId[APPLICATION_USER_MODEL_ID_MAX_LENGTH]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/WindowsAppRuntime.VersionInfo.cpp:78:9:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        char resourceValue[c_ResourceMaxLength]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/creatwth.cpp:754:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(lpProcessInformation, &pi, sizeof(pi));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/creatwth.cpp:811:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(lpProcessInformation, &pi, sizeof(pi));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/detours.cpp:1683:13:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            CopyMemory(o->pbTarget,
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/detours.cpp:2215:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pTrampoline->rbRestore, pbTarget, cbTarget);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disasm.cpp:425:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pbDst, pbSrc, nBytes);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:445:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pbNew, m_pbData, m_cbData);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:606:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pbDest, pbData, cbData);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:888:13:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            CopyMemory(pOutput, m_pbOutputBuffer, m_cbOutputBuffer);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:1101:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(&m_SectionHeaders,
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:1820:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pbHead, &dh, sizeof(dh));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:1821:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pbPrePE, m_pMap + m_nPrePE, m_cbPrePE);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:1822:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pbData, m_pImageData->m_pbData, m_pImageData->m_cbData);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/modules.cpp:869:13:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            CopyMemory(pder->pidh, &pder->idh, pder->cbidh);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/modules.cpp:870:13:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            CopyMemory(pder->pinh, &pder->inh, pder->cbinh);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/modules.cpp:875:21:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+                    CopyMemory(pder->pclr, &pder->clr, pder->cbclr);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraphManager.cpp:315:13:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(bufferAsBytes + bufferUsed, from, size);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/src/MRM.cpp:255:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t rootResourceMap[256] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/src/MRM.cpp:691:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t rootResourceMap[256] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/src/MRM.cpp:976:5:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+    wchar_t moduleFilename[MAX_PATH];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/unittests/MrmTests.cpp:714:5:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+    wchar_t previousWorkingDirectory[MAX_PATH];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/BlobResult.UnitTests.cpp:334:9:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        char stringUtf8[128];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/BlobResult.UnitTests.cpp:416:9:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        char stringUtf8[128];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:147:5:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+    wchar_t szStringFromNumber[MAX_PATH];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:350:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t szAsciiOneChar[2] = {static_cast<wchar_t>(i), L'\0'};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:384:13:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+            wchar_t szAsciiTwoChars[3] = {static_cast<wchar_t>(i), static_cast<wchar_t>(j), L'\0'};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:419:13:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+            wchar_t szUtf16[3];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:477:17:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+                wchar_t szUtf16[5];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:633:9:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        char pszOfficialAscii[MAX_PATH] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:704:9:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        char pszOfficialUtf8[MAX_PATH] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/FileLists.h:470:17:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+                memcpy(pNameOut, pName, cchName * sizeof(WCHAR));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/HNames.h:303:13:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(pNameOut, pName, cchName * sizeof(WCHAR));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/EnvironmentMappingBuilder.cpp:190:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(namesPool, m_namesPool, (m_header.namesPoolSizeInChars * sizeof(WCHAR)));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HSchemaBuilder.cpp:788:9:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        memcpy(pBuffer, blobResult.GetRef(nullptr), cbBuffer);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/LinkBuilder.cpp:134:13:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            CopyMemory(&m_schemaData[offset], data, dataSizeInBytes);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/PriMerge.cpp:152:5:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+    wchar_t wszMrtMergeTempPath[MAX_PATH] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/PriMerge.cpp:273:5:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+    wchar_t pszUuid[MAX_PATH] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/References.cpp:301:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pPayload, pPayloadIn, cbPayloadIn);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseProviders.cpp:128:5:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+    wchar_t wszLanguageBuffer[LOCALE_NAME_MAX_LENGTH + 1] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:515:21:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+        int value = _wtoi(pValue);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:541:25:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int providerValue = _wtoi(pszProviderValue);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:542:25:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int qualiferValue = _wtoi(qualifierValue.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:578:15:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int qv1 = _wtoi(qualifierValue1.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:579:15:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int qv2 = _wtoi(qualifierValue2.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:613:14:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int pv = _wtoi(pValue);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:614:15:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int qv1 = _wtoi(qualifierValue1.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BaseQualifierTypes.cpp:615:15:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int qv2 = _wtoi(qualifierValue2.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/BlobResult.cpp:115:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pBuffer, m_blobResult.pRef, m_blobResult.cbRef);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/CoreQualifierTypes.cpp:108:27:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int iQualifierValue = _wtoi(qualifierValue.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/CoreQualifierTypes.cpp:154:39:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+        int delta = iQualifierValue - _wtoi(ppAutoPackageValues[i]);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/CoreQualifierTypes.cpp:192:24:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int contextValue = _wtoi(pContextValue);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/CoreQualifierTypes.cpp:193:22:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    int assetValue = _wtoi(assetQualifierValue.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfoBuilder.cpp:814:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pDecisions, m_pData->GetDecisions()->GetAll(), pHeader->numDecisions * sizeof(MRMFILE_DECISION));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfoBuilder.cpp:815:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pQualifierSets, m_pData->GetQualifierSets()->GetAll(), pHeader->numQualifierSets * sizeof(MRMFILE_QUALIFIER_SET));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfoBuilder.cpp:816:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pQualifiers, m_pData->GetQualifiers()->GetAll(), pHeader->numQualifiers * sizeof(MRMFILE_QUALIFIER));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfoBuilder.cpp:817:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pBaseQualifiers, m_pData->GetBaseQualifiers()->GetAll(), pHeader->numBaseQualifiers * sizeof(MRMFILE_BASE_QUALIFIER));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfoBuilder.cpp:818:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pReferences, m_pData->GetReferences()->GetAll(), pHeader->numReferences * sizeof(UINT16));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/DecisionInfoBuilder.cpp:819:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pLiterals, m_pData->GetLiteralsStringPool()->GetBuffer(), pHeader->cchLiterals * sizeof(WCHAR));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/HSchema.cpp:486:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(pCloneBuffer.get(), pMyBuffer, cbData);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/ManagedFiles.cpp:579:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t buf[1];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/MrmFile.cpp:488:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t wszFolder[MAX_PATH] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/RemapInfo.cpp:36:9:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+        CopyMemory(pRtrn->m_pMapping, pCloneFrom->m_pMapping, (pCloneFrom->m_sizeMapping * sizeof(UINT16)));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/RemapInfo.cpp:41:13:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            CopyMemory(pRtrn->m_present.masks, pCloneFrom->m_present.masks, maskSize * (PresenceMaskWidth / 8));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/RemapInfo.cpp:283:5:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    CopyMemory(m_mappedAtomIndexes, mappedAtomIndexes, sizeof(Atom::SmallIndex) * numMappedAtomIndexes);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/ResourceMap.cpp:268:13:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            memcpy(&value, &m_pResourceValues[valueIndex], sizeof(MRMFILE_MAP_VALUE));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/StringResult.cpp:434:13:  [2] (buffer) CopyMemory:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+            CopyMemory(pBuffer, m_pString->pRef, len * sizeof(pBuffer[0]));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:329:9:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+        MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, pszStringUtf8, (int)cbStringUtf8IncludingNull, nullptr, 0);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:341:40:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+    cchStringUtf16IncludingNullLocal = MultiByteToWideChar(
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:384:5:  [2] (buffer) memcpy:
+  Does not check for buffer overflows when copying to destination (CWE-120).
+  Make sure destination can always hold the source data.
+    memcpy(pRtrn, pString, sizeof(WCHAR) * (len + 1));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:406:31:  [2] (integer) _wtoi:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+            *valueAsInteger = _wtoi(str);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageVolume.cpp:38:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t volumePathName[c_volumePathNameMaxLength]{};//AKA volumeMountPoint
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageVolume.cpp:42:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t volumeName[c_volumeNameMaxLength]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationUtility.h:60:20:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+        int size = MultiByteToWideChar(
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationUtility.h:70:16:  [2] (buffer) MultiByteToWideChar:
+  Requires maximum length in CHARACTERS, not bytes (CWE-120).
+        size = MultiByteToWideChar(
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PushNotifications/PushNotificationUtility.h:84:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t appId[APPLICATION_USER_MODEL_ID_MAX_LENGTH] = {};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/RestartAgent/main.cpp:25:49:  [2] (integer) _wtoi64:
+  Unless checked, the resulting number can exceed the expected range
+  (CWE-190). If source untrusted, check both minimum and maximum, even if the
+  input had no minus sign (large numbers can roll over into negative number;
+  consider saving to an unsigned value if that is intended).
+    parentHandle.reset(reinterpret_cast<HANDLE>(_wtoi64(handleArg)));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/catalog.cpp:420:5:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+    wchar_t folderPrefix[9];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:85:13:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+            wchar_t pszRetrievedName[g_uiMaxTypeName];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:216:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t szCandidateFileName[MAX_PATH + 1]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:225:13:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+            wchar_t szCandidateFilePath[MAX_PATH + 1]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:262:17:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+                wchar_t szFilePathSearchTemplate[MAX_PATH + 1]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:329:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t pszPackagePath[MAX_PATH + 1]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.h:133:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t formattedVersion[5 + 1 + 5 + 1 + 5 + 1 + 5 + 1]{};  // "12345.12345.12345.12345" + null-terminator
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_Insights/WindowsAppRuntimeInsights.h:39:13:  [2] (buffer) char:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+            char resourceValue[c_ResourceMaxLength]{};
+/home/puya/Desktop/WindowsAppSDK-1.6.2/installer/dev/install.cpp:324:9:  [2] (buffer) wchar_t:
+  Statically-sized arrays can be improperly restricted, leading to potential
+  overflows or other issues (CWE-119!/CWE-120). Perform bounds checking, use
+  functions that limit length, or ensure that the size is larger than the
+  maximum possible length.
+        wchar_t packageFilename[MAX_PATH];
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/AppNotifications/AppNotificationUtility.cpp:87:126:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            RegisterValue(hKey, L"NotificationGUID", reinterpret_cast<const BYTE*>(newNotificationGuidString.get()), REG_SZ, wcslen(newNotificationGuidString.get()) * sizeof(wchar_t));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Common/AppModel.Identity.h:315:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        const auto versionTagLength{ wcslen(versionTag) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/creatwth.cpp:16:26:  [1] (buffer) mismatch:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+#error detours.h version mismatch
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/detours.cpp:16:26:  [1] (buffer) mismatch:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+#error detours.h version mismatch
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/disasm.cpp:16:26:  [1] (buffer) mismatch:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+#error detours.h version mismatch
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:21:26:  [1] (buffer) mismatch:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+#error detours.h version mismatch
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:699:29:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        DWORD nLen = (DWORD)strlen(pszString) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:725:29:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        DWORD nLen = (DWORD)strlen(pszString) + 1 + sizeof(USHORT);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:1363:24:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        nChars += (int)strlen(pImportFile->m_pszName) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/image.cpp:1387:36:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                    nChars += (int)strlen(pImportName->m_pszName) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/modules.cpp:17:26:  [1] (buffer) mismatch:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+#error detours.h version mismatch
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/uimports.cpp:14:26:  [1] (buffer) mismatch:
+  Function does not check the second iterator for over-read conditions
+  (CWE-126). This function is often discouraged by most C++ coding standards
+  in favor of its safer alternatives provided since C++14. Consider using a
+  form of this function that checks the second iterator before potentially
+  overflowing it.
+#error detours.h version mismatch
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/uimports.cpp:117:36:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        cbNew += PadToDword((DWORD)strlen(plpDlls[n]) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/Detours/uimports.cpp:199:36:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        obStr += PadToDword((DWORD)strlen(plpDlls[n]) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/DynamicDependency/API/PackageGraphManager.h:85:37:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        return static_cast<UINT32>((wcslen(s) + 1) * sizeof(*s));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/EnvironmentManager/API/Microsoft.Windows.System.EnvironmentManager.cpp:613:132:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        for (auto environmentVariableOffset = environmentVariablesString; *environmentVariableOffset; environmentVariableOffset += wcslen(environmentVariableOffset) + 1)
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/Core/src/MRM.cpp:39:14:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    return ((wcslen(resourceId) > static_cast<size_t>(ResourceUriPrefixLength)) && (CompareStringOrdinal(ResourceUriPrefix, ResourceUriPrefixLength, resourceId, ResourceUriPrefixLength, TRUE) == CSTR_EQUAL));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/BlobResult.UnitTests.cpp:494:56:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            useReference ? BlobResult::NewRef(string, (wcslen(string) + 1) * sizeof(wchar_t), &blobResult) :
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/BlobResult.UnitTests.cpp:495:56:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                           BlobResult::NewBuf(string, (wcslen(string) + 1) * sizeof(wchar_t), &blobResult));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Helpers.cpp:675:21:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        blobSize = (wcslen((PCWSTR)blobString) + 1) * sizeof(WCHAR);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp:170:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    embeddedData.SetRef(seedString, (wcslen(seedString) + 1) * sizeof(WCHAR));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp:212:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    embeddedData1.SetRef(seedString1, (wcslen(seedString1) + 1) * sizeof(WCHAR));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp:213:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    embeddedData2.SetRef(seedString2, (wcslen(seedString2) + 1) * sizeof(WCHAR));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp:282:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        (actualDataValueSize1 * 2 == ((wcslen(utf16String) + 1) * sizeof(wchar_t))) &&
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp:283:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        (actualDataValueSize2 * 2 == ((wcslen(utf16String) + 1) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp:319:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        (actualDataValueSize1 * 2 == ((wcslen(utf16String1) + 1) * sizeof(wchar_t))) &&
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/PriBuilder.UnitTests.cpp:320:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        (actualDataValueSize2 * 2 == ((wcslen(utf16String2) + 1) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/ResourceReference.UnitTests.cpp:517:40:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                        cbBlobUsed += (wcslen(pTestOrigin) + 1) * sizeof(WCHAR);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/ResourceReference.UnitTests.cpp:548:44:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                            cbBlobUsed += (wcslen(pTestPayload) + 1) * sizeof(WCHAR);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult.UnitTests.cpp:11:22:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_ARE_EQUAL(wcslen(aGoal) + 1, (size_t)(cchSelf))
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult.UnitTests.cpp:53:20:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        shortLen = wcslen(shortStr);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult.UnitTests.cpp:54:18:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        medLen = wcslen(medStr);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult.UnitTests.cpp:55:19:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        longLen = wcslen(longStr);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp:15:22:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_ARE_EQUAL(wcslen(aGoal) + 1, (size_t)(cchSelf))
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp:52:20:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        shortLen = wcslen(shortStr);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp:53:18:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        medLen = wcslen(medStr);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp:54:19:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        longLen = wcslen(longStr);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp:663:29:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY(pSelf->cchBuf == wcslen(medStr) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp:664:12:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY(wcslen(pSelf->pBuf) == wcslen(medStr));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/StringResult_C.UnitTests.cpp:664:35:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY(wcslen(pSelf->pBuf) == wcslen(medStr));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/UnifiedView.UnitTests.cpp:1055:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    int cchPrefix = static_cast<int>(wcslen(pPrefix));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:650:26:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        VERIFY_ARE_EQUAL(wcslen(pszUtf16) + 1, static_cast<size_t>(cbOfficialAscii));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:652:69:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        VERIFY_ARE_EQUAL(0, memcmp(pszUtf16, c_pszStringsToTest[i], wcslen(c_pszStringsToTest[i])));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:722:49:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        VERIFY_ARE_EQUAL(cchUtf16IncludingNull, wcslen(pszUtf16) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:723:49:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        VERIFY_ARE_EQUAL(cchUtf16IncludingNull, wcslen(c_pszStringsToTest[i]) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/UnitTests/Util.UnitTests.cpp:725:69:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        VERIFY_ARE_EQUAL(0, memcmp(pszUtf16, c_pszStringsToTest[i], wcslen(c_pszStringsToTest[i])));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/build/WriteableStringPool.h:34:62:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    static size_t StringLength(_In_ PCWSTR pString) { return wcslen(pString); }
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/References.h:104:14:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            (wcslen(pszLiteral) + 1) * sizeof(WCHAR),
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/include/mrm/readers/References.h:148:14:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            (wcslen(pszResourceName) + 1) * sizeof(WCHAR),
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/DataItemOrchestrator.cpp:337:48:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            size_t writtenBytesIncludingNull = wcslen(value);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/DataItemOrchestrator.cpp:419:48:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            size_t writtenBytesIncludingNull = wcslen(value);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/DataItemOrchestrator.cpp:449:31:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    RETURN_IF_FAILED(SizeTAdd(wcslen(value), 1, &valueLengthAfterAdd));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/DataSectionBuilder.cpp:430:54:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    return AddDataItem(pString, static_cast<UINT32>((wcslen(pString) + 1) * sizeof(WCHAR)), pRefOut);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/EnvironmentMappingBuilder.cpp:64:33:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        namesPoolSizeInChars += wcslen(currentQualifierName.GetRef()) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/EnvironmentMappingBuilder.cpp:97:23:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        numWritten += wcslen(currentQualifierName.GetRef()) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileAtomPoolBuilder.cpp:64:32:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    RETURN_HR_IF(E_INVALIDARG, wcslen(pDescription) >= FileAtomPool::DescriptionLength);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileListBuilder.cpp:950:19:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        cchName = wcslen(pName) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileListBuilder.cpp:969:19:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        cchName = wcslen(pName) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileListBuilder.cpp:1172:39:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    pFolders[index].cchName = (UINT16)wcslen(name.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/FileListBuilder.cpp:1197:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            pFile->cchName = (UINT16)wcslen(name.GetRef());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp:95:64:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    size_t len = (DefString_IsEmpty(m_segment.GetName()) ? 0 : wcslen(m_segment.GetName()));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp:103:20:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            len += wcslen(pParentName) + 1; // +1 for separator
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp:1123:49:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            cchUtf16Strings += static_cast<int>(wcslen(pName) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp:1127:49:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            cchAsciiStrings += static_cast<int>(wcslen(pName) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp:1145:53:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                cchUtf16Strings += static_cast<int>(wcslen(pChild->GetName()) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp:1149:53:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                cchAsciiStrings += static_cast<int>(wcslen(pChild->GetName()) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HNamesBuilder.cpp:1298:19:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        cchName = wcslen(pNode->GetName());
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HSchemaBuilder.cpp:666:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    m_cchUniqueId = static_cast<int>(wcslen(m_pUniqueId) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HSchemaBuilder.cpp:667:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    m_cchSimpleId = static_cast<int>(wcslen(m_pSimpleId) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/HSchemaBuilder.cpp:883:32:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    return static_cast<UINT32>(wcslen(m_schemaToReference->GetUniqueId()) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/MapBuilder.cpp:432:28:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        size_t cbString = (wcslen(pString) + 1) * sizeof(WCHAR);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/References.cpp:246:21:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        cchOrigin = wcslen(pszOriginIn) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/References.cpp:320:22:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    size_t cbName = (wcslen(name.GetRef()) + 1) * sizeof(WCHAR);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/ResourcePackMerge.cpp:291:21:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    size_t strLen = wcslen(pszFilePath);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmex/ResourcePackMerge.cpp:333:33:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        pszNext = pszFilePath + wcslen(pszFilePath);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/FileAtomPool.cpp:415:51:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            cchMaxPoolSize += static_cast<UINT32>(wcslen(ppStrings[i])) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/FileFileList.cpp:115:28:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    int cchFullPath = (int)wcslen(pFullPath);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/HNames.cpp:12:32:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    int len = static_cast<int>(strlen(pStoredSegment));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/HNames.cpp:1223:45:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        int cchRequested = static_cast<int>(wcslen(pRequestedSegment));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/MrmTraceLogging.cpp:31:34:  [1] (buffer) strlen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            size_t filenameLen = strlen(filename);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/MrmTraceLogging.cpp:41:33:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            size_t messageLen = wcslen(message);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Platform.cpp:67:72:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        Status = RtlExpandEnvironmentStrings(nullptr, Source, Source ? wcslen(Source) : 0, Destination, Size, &Length);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/RtlProfile.cpp:138:22:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            result = wcslen(valueOnAsset) > 3 ? 1.0 : 0.5;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/RtlProfile.cpp:148:13:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        if (wcslen(pszProviderValue) > 0)
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/StringResult.cpp:433:31:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            _Analysis_assume_(wcslen(m_pString->pRef) < len); // this is true for all cases (if DefStringResult_GetLength failed, len == 1)
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:50:26:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    size_t cchSelf = min(wcslen(pSelf), cchMax);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:51:27:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    size_t cchOther = min(wcslen(pOther), cchMax);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:378:11:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    len = wcslen(pString);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/MRTCore/mrt/mrm/mrmmin/Util.cpp:611:18:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    size_t Len = wcslen(Source) + 1;
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageDeploymentManager.cpp:3565:34:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        const auto targetLength{ wcslen(target) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/PackageManager/API/M.W.M.D.PackageVolume.cpp:44:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        const auto volumeNameLength{ wcslen(volumeName) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/RestartAgent/main.cpp:36:25:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    startOfHandleArg += wcslen(handleArg);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:35:56:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        hr = PathCchRemoveFileSpec(localExePath.get(), wcslen(localExePath.get()) + 1);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:84:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+            const size_t cFullName = wcslen(pszFullName);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:179:72:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                            if (IsTdWindowsRuntime(dwTypeDefProps) && (wcslen(pszRetrievedName) > cFullName))
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.cpp:243:74:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+                                                     static_cast<UINT32>(wcslen(szCandidateFilePath)),
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/UndockedRegFreeWinRT/typeresolution.h:54:25:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        size_t length = wcslen(pszKey);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.cpp:600:32:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        const auto pathLength{ wcslen(path.get()) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.cpp:601:41:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        const auto frameworkPathLength{ wcslen(frameworkPath) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.cpp:864:41:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    const auto packageNamePrefixLength{ wcslen(packageNamePrefix) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.cpp:873:35:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        packageNameSuffixLength = wcslen(packageNameSuffix);
+/home/puya/Desktop/WindowsAppSDK-1.6.2/dev/WindowsAppRuntime_BootstrapDLL/MddBootstrap.cpp:1113:38:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        const auto versionTagLength{ wcslen(versionTag) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_Win32/Test_Win32.cpp:666:34:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    const auto pathPrefixLength{ wcslen(pathPrefix) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/DynamicDependency/Test_WinRT/Test_WinRT.cpp:713:34:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    const auto pathPrefixLength{ wcslen(pathPrefix) };
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/EnvironmentVariableHelper.h:442:128:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    for (auto environmentVariableOffset = environmentVariablesString; *environmentVariableOffset; environmentVariableOffset += wcslen(environmentVariableOffset) + 1)
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestSetupAndTeardownHelper.h:34:158:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_WIN32_SUCCEEDED(RegSetValueExW(userEnvironmentVariablesHKey.get(), c_PathName, 0, REG_EXPAND_SZ, (LPBYTE)originalPath.c_str(), static_cast<DWORD>(wcslen(originalPath.c_str()) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestSetupAndTeardownHelper.h:41:164:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_WIN32_SUCCEEDED(RegSetValueExW(userEnvironmentVariablesHKey.get(), c_PathExtName, 0, REG_EXPAND_SZ, (LPBYTE)originalPathExt.c_str(), static_cast<DWORD>(wcslen(originalPathExt.c_str()) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestSetupAndTeardownHelper.h:48:161:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_WIN32_SUCCEEDED(RegSetValueExW(machineEnvironmentVariablesHKey.get(), c_PathName, 0, REG_EXPAND_SZ, (LPBYTE)originalPath.c_str(), static_cast<DWORD>(wcslen(originalPath.c_str()) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestSetupAndTeardownHelper.h:55:167:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_WIN32_SUCCEEDED(RegSetValueExW(machineEnvironmentVariablesHKey.get(), c_PathExtName, 0, REG_EXPAND_SZ, (LPBYTE)originalPathExt.c_str(), static_cast<DWORD>(wcslen(originalPathExt.c_str()) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestSetupAndTeardownHelper.h:106:152:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_WIN32_SUCCEEDED(RegSetValueExW(userEnvironmentVariablesHKey.get(), c_EvKeyNameForGet, 0, REG_SZ, (LPBYTE)c_EvValueName, static_cast<DWORD>((wcslen(c_EvValueName) + 1) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/EnvironmentManagerTests/TestSetupAndTeardownHelper.h:133:155:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+    VERIFY_WIN32_SUCCEEDED(RegSetValueExW(machineEnvironmentVariablesHKey.get(), c_EvKeyNameForGet, 0, REG_SZ, (LPBYTE)c_EvValueName, static_cast<DWORD>((wcslen(c_EvValueName) + 1) * sizeof(wchar_t))));
+/home/puya/Desktop/WindowsAppSDK-1.6.2/test/inc/WindowsAppRuntime.Test.TAEF.h:38:22:  [1] (buffer) wcslen:
+  Does not handle strings that are not \0-terminated; if given one it may
+  perform an over-read (it could cause a crash if unprotected) (CWE-126).
+        int base = ((wcslen(valueString) >= 2) && (valueString[0] == L'0') && (valueString[1] == L'x')) ? 16 : 10;
+
+ANALYSIS SUMMARY:
+
+Hits = 242
+Lines analyzed = 167843 in approximately 1.18 seconds (141722 lines/second)
+Physical Source Lines of Code (SLOC) = 126163
+Hits@level = [0]  12 [1] 112 [2]  95 [3]  33 [4]   2 [5]   0
+Hits@level+ = [0+] 254 [1+] 242 [2+] 130 [3+]  35 [4+]   2 [5+]   0
+Hits/KSLOC@level+ = [0+] 2.01327 [1+] 1.91815 [2+] 1.03041 [3+] 0.277419 [4+] 0.0158525 [5+]   0
+Dot directories skipped = 3 (--followdotdir overrides)
+Minimum risk level = 1
+
+Not every hit is necessarily a security vulnerability.
+You can inhibit a report by adding a comment in this form:
+// flawfinder: ignore
+Make *sure* it's a false positive!
+You can use the option --neverignore to show these.
+
+There may be other security vulnerabilities; review your code!
+See 'Secure Programming HOWTO'
+(https://dwheeler.com/secure-programs) for more information.
