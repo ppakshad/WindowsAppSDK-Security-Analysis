@@ -9,11 +9,11 @@ This repository contains the **Static Security Analysis Report** for `WindowsApp
 WindowsAppSDK is a software development kit that provides modern Windows APIs. To ensure software security, a **comprehensive static security analysis** was performed to identify potential vulnerabilities in the source code.
 
 The analysis was conducted using the following tools:
-- ✅ **Cppcheck** (Code Style & Syntax Analysis)
-- ✅ **Flawfinder** (Dangerous Functions Detection)
-- ✅ **RATS** (Security Auditing)
-- ✅ **Fluid Attacks** (Supply Chain Vulnerabilities)
-- ✅ **IBM AppScan Analyzer** (Privilege Escalation & CVSS Scoring)
+- **Cppcheck** (Code Style & Syntax Analysis)
+- **Flawfinder** (Dangerous Functions Detection)
+- **RATS** (Security Auditing)
+- **Fluid Attacks** (Supply Chain Vulnerabilities)
+- **IBM AppScan Analyzer** (Privilege Escalation & CVSS Scoring)
 
 ---
 
