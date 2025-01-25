@@ -1,5 +1,5 @@
-# 🔍 WindowsAppSDK Static Security Analysis
-## 🛡 Security Vulnerability Report
+# WindowsAppSDK Static Security Analysis
+## Security Vulnerability Report
 
 This repository contains the **Static Security Analysis Report** for `WindowsAppSDK`. The vulnerabilities were detected using multiple static analysis tools, and the results highlight critical security issues that need to be addressed.
 
